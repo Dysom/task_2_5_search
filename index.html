@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="shortcut icon" href="#" />
+    <script src="js/script.js" defer></script>
+    <title>Task_2_5</title>
+</head>
+
+<body class="page">
+    <main class="page__wrapper wrapper">
+        <form action="" id="search-form" class="page__form search-form">
+            <fieldset class="search-form__fieldset">
+                <label for="search_text" class="search-form__label">Поиск репозитория по подстроке на GitHub:</label>
+                <div class="search-form__input-wrapper">
+                    <input class="search-form__input-text" type="text" name="search_text"
+                           placeholder="Введите подстроку входящую в название репозитория" />
+                </div>
+            </fieldset>
+            <fieldset class="search-form__fieldset">
+                <button name="search_button" class="search-form__button">Искать</button>
+            </fieldset>
+        </form>
+        <div id="search-results" class="search-results"></div>
+    </main>
+</body>
+
+</html>
